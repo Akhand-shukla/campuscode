@@ -3,6 +3,10 @@
 
 This project is a 1:1 pixel-accurate recreation of the original **CampusCode** platform ([https://campuscode.co.in](https://campuscode.co.in)) for the **ReBuild '26 Round 1** hackathon challenge.
 
+* 🌐 **Live Vercel Deployment**: [https://yes-livid-two.vercel.app](https://yes-livid-two.vercel.app)
+* 🐙 **GitHub Repository**: [https://github.com/Akhand-shukla/campuscode](https://github.com/Akhand-shukla/campuscode)
+* 🛡️ **AI Attestation (14.3%)**: [`.ai-attestation.yaml`](./.ai-attestation.yaml) (Compliant with < 40% rule)
+
 ---
 
 ## 📌 Executive Summary
