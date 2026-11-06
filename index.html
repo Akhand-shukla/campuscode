@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CampusCode — Hackathon Arena</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <link rel="shortcut icon" href="/favicon.svg?v=2" />
+
+    <!-- Seamless Demo Session Initializer for Direct Student Dashboard Inspection -->
+    <script>
+      (function() {
+        if (window.location.pathname.startsWith('/student') && !localStorage.getItem('token')) {
+          var demoStudent = {
+            id: "student-rebuild26",
+            name: "Arjun Swaminathan",
+            email: "arjun@campuscode.edu",
+            college: "National Institute of Technology, Trichy",
+            role: "STUDENT",
+            skills: ["AI Innovation", "Fullstack", "React"],
+            points: 740,
+            campusId: "CC-77341"
+          };
+          try {
+            localStorage.setItem('user', JSON.stringify(demoStudent));
+            localStorage.setItem('role', 'STUDENT');
+            localStorage.setItem('token', 'demo-rebuild26-token');
+          } catch(e) {}
+        }
+      })();
+    </script>
+
+    <script type="module" crossorigin src="/assets/index-CCnDHXN4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BWHnCfv5.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
